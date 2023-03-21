@@ -1,0 +1,99 @@
+
+body {
+  background: linear-gradient(50deg, #146c94 0%, #000000 100%);
+  margin:0px
+}
+p{
+  color: aquamarine;
+}
+.navbar-nav,
+.nav-link,
+.active {
+  color: #146c94;
+  border-radius: 10px;
+}
+.navbar-toggler {
+  background-color: rgba(67, 65, 221, 0.61);
+}
+
+.nav-link:hover {
+  background-color: rgb(65, 65, 150);
+  border-radius: 10px;
+}
+.card {
+  box-shadow: 4px 8px 15px 1px #000, 5px 5px 10px 1px #000;
+}
+
+.card-body > a {
+  display: flex;
+  justify-content: center;
+}
+.sidebar {
+  color: aquamarine;
+  background: linear-gradient(270deg, #146c94 0%, #000000 100%);
+  border: 5px;
+}
+
+.card {
+  background: linear-gradient(270deg, #146c94 0%, #000000 100%);
+}
+.card a {
+  text-decoration: none;
+  color: aquamarine;
+}
+.slide-text{
+  color: aquamarine;
+  margin-inline: auto;
+  margin-block: auto;
+}
+.footer-text{
+  color: aquamarine;
+  margin-inline: auto;
+  margin-block: auto;
+}
+footer{
+  background: linear-gradient(270deg, #146c94 0%, #000000 100%);
+  /* position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+    
+  
+}
+.call-anim:hover{
+animation: call 1s ease 0s 1 normal forwards
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: translateY(0) rotate(0);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateY(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateY(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateY(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateY(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateY(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+  .carousel-indicators{
+    display: none;
+  }
+  
+}
